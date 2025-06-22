@@ -12,16 +12,22 @@ let secondCard = false;
 
 //Items array
 const items = [
-  { name: "java", image: "./images/java.png" },
-  { name: "csharp", image: "./images/csharp.png" },
-  { name: "c++", image: "./images/c++.png" },
-  { name: "css", image: "./images/css.png" },
-  { name: "flutter", image: "./images/flutter.png" },
-  { name: "github", image: "./images/github.png" },
-  { name: "html", image: "./images/html.png" },
-  { name: "mongo", image: "./images/mongo.png" },
-  { name: "python", image: "./images/python.png" },
-  { name: "react", image: "./images/reactjs.png" },
+  { name: "moose_hockey", image: "./images/moose_hockey.png" },
+  { name: "moose_dancer", image: "./images/moose_dancer.png" },
+  { name: "moose_balloons", image: "./images/moose_balloons.png" },
+  { name: "moose_camera", image: "./images/moose_camera.png" },
+  { name: "moose_fishing", image: "./images/moose_fishing.png" },
+  { name: "moose_scientist", image: "./images/moose_scientist.png" },
+  { name: "moose_astronaut", image: "./images/moose_astronaut.png" },
+  { name: "moose_cooking", image: "./images/moose_cooking.png" },
+  { name: "moose_wave", image: "./images/moose_wave.png" },
+  { name: "moose_tea", image: "./images/moose_tea.png" },
+  { name: "moose_reader", image: "./images/moose_reader.png" },
+  { name: "moose_guitar", image: "./images/moose_guitar.png" },
+  { name: "moose_winter", image: "./images/moose_winter.png" },
+  { name: "moose_bicycle", image: "./images/moose_bicycle.png" },
+  { name: "moose_artist", image: "./images/moose_artist.png" },
+  { name: "moose_hammock", image: "./images/moose_hammock.png" },
 ];
 
 //Initial Time
@@ -77,7 +83,7 @@ const matrixGenerator = (cardValues, size = 4) => {
   for (let i = 0; i < size * size; i++) {
     gameContainer.innerHTML += `
      <div class="card-container" data-card-value="${cardValues[i].name}">
-        <div class="card-before">?</div>
+        <div class="card-before"><img src="./images/background.png" class="back-image"/></div>
         <div class="card-after">
         <img src="${cardValues[i].image}" class="image"/></div>
      </div>

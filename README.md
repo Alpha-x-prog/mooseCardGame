@@ -1,24 +1,36 @@
-# Memory Card Game
+# Moose Card Game
 
-This is a simple memory card game created using HTML, CSS, and JavaScript. You can play the game by matching pairs of cards with the same image. It's a fun and challenging way to test your memory and concentration.
+A tiny, browser‑friendly memory game starring adorable **moose** artwork.
 
-## Play the Game
-You can play the game by visiting the following link: [Memory Card Game](https://himidiri.github.io/memory-card-game/)
+---
 
-## How to Play
-1. Click on any card to reveal its symbol.
-2. Click on another card to find a matching symbol.
-3. If the symbols match, the cards will stay face-up. If not, they will be flipped face down again.
-4. Continue to uncover pairs of matching cards until all cards are matched.
-5. The game is won when all pairs are matched.
+## ▶️ Play now
+
+[https://alpha-x-prog.github.io/mooseCardGame/](https://alpha-x-prog.github.io/mooseCardGame/)
+
+---
+
+## How to play
+
+1. Click any card to reveal its face.
+2. Flip a second card.
+3. **Match?** Both stay up. **No match?** They flip back.
+4. Clear all eight pairs to win!
+
+---
 
 ## Features
-- A simple and interactive user interface.
-- A timer to track how long it takes to complete the game.
-- A move counter to keep track of your progress.
-- A stop button to restart the game at any time.
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
+* 🫎 Custom moose illustrations
+* ⏱️ Move counter & timer
+* 🔄 One‑click restart
+* 📱 Responsive layout (desktop & mobile)
+
+---
+
+## Tech stack
+
+Vanilla **HTML + CSS + JavaScript** — auto‑deployed via **GitHub Pages**.
+
+
+— Made with ♥ by Alpha‑x‑prog —
